@@ -39,4 +39,8 @@ class WebController extends Controller
         return view("welcome");
     }
 
+    public function class(){
+        return view("admin.class.class");
+    }
+
 }

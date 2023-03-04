@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/dashboard',[App\Http\Controllers\WebController::class,"index"]);
 
+Route::get('/admin/class/class',[App\Http\Controllers\WebController::class,"class"]);
+
 Route::get('/',[App\Http\Controllers\WebController::class,"home"]);
 
 Route::get('user/about',[App\Http\Controllers\WebController::class,"about"]);
